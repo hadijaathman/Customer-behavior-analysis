@@ -107,12 +107,12 @@ The project demonstrates:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/hadijaathman/Customer-behavior-analysis.git
 ```
 
 2. Navigate to the project:
 ```bash
-cd project-name
+cd Customer_behavior_analysis
 ```
 
 3. Install dependencies:
