@@ -4,20 +4,35 @@
 
 This project demonstrates an end-to-end data analytics workflow, from data preparation to business insights and visualization. The analysis includes loading and exploring a dataset in Python, cleaning and transforming the data, querying it using PostgreSQL, creating interactive dashboards in Power BI, and presenting the findings through a report and presentation.
 
-The goal of this project is to showcase practical data analytics skills and the complete data analysis process.
+The goal of this project is to showcase practical data analytics and the complete data analysis process.
 
 ---
 
 ## Dataset
+This is a customer shopping behavior dataset that contains information about customers, their demographic characteristics, purchased products, spending habits, and shopping preferences
+### Dataset Features
+| Column | Description |
+|--------|-------------|
+| Customer ID | Unique identifier for each customer |
+| Age | Customer's age |
+| Gender | Customer's gender |
+| Item Purchased | Product purchased by the customer |
+| Category | Product category |
+| Purchase Amount (USD) | Amount spent on the purchase |
+| Location | Customer's location |
+| Size | Product size (where applicable) |
+| Color | Product color |
+| Season | Season during which the purchase was made |
+| Review Rating | Customer rating of the purchased item |
+| Subscription Status | Indicates whether the customer is subscribed |
+| Shipping Type | Delivery method selected |
 
-The dataset used in this project contains structured data for analysis.
 
 Key activities performed include:
 - Loading the dataset into Python
 - Exploring data structure and quality
 - Handling missing values
-- Removing duplicates
-- Correcting data types
+- data engineering
 - Preparing the dataset for analysis
 
 ---
@@ -46,9 +61,7 @@ Key activities performed include:
 - Detected missing values and outliers.
 
 ### 3. Data Cleaning
-- Removed duplicate records.
-- Handled missing values.
-- Corrected inconsistent data.
+- Imputed missing values.
 - Converted columns to appropriate data types.
 
 ### 4. SQL Analysis
@@ -117,4 +130,4 @@ pip install -r requirements.txt
 
 ## Author
 
-**Your Name**
+**Khadija Athman**
